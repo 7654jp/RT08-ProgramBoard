@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998")
+	(paper "A1")
+	(title_block
+		(title "Y-tran RT-08 Program board")
+		(date "2025~")
+		(rev "0")
+		(company "@yoshi-jp")
+		(comment 3 "the core to provide instructions.")
+		(comment 4 "This board will be connected to")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
