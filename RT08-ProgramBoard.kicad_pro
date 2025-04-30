@@ -246,7 +246,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "YoshLibrary"
+    ]
   },
   "meta": {
     "filename": "RT08-ProgramBoard.kicad_pro",
