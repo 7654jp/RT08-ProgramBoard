@@ -556,7 +556,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2SA1015"
+		(symbol "YoshLibrary:2SA1015"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -564,7 +564,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "PQ"
+			(property "Reference" "PX"
 				(at 5.08 1.905 0)
 				(effects
 					(font
@@ -633,7 +633,19 @@
 			(symbol "2SA1015_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -645,14 +657,14 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -668,7 +680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -2.286) (xy 2.286 -1.778) (xy 1.27 -1.27) (xy 1.778 -2.286) (xy 1.778 -2.286)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -678,35 +690,11 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "2SA1015_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 5.715)
 					(name "B"
 						(effects
 							(font
@@ -761,7 +749,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2SC1815"
+		(symbol "YoshLibrary:2SC1815"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -769,7 +757,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
+			(property "Reference" "NX"
 				(at 5.08 1.905 0)
 				(effects
 					(font
@@ -838,46 +826,10 @@
 			(symbol "2SC1815_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -895,9 +847,35 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "2SC1815_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -907,11 +885,9 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "2SC1815_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 5.715)
 					(name "B"
 						(effects
 							(font
@@ -1897,162 +1873,210 @@
 		)
 	)
 	(junction
-		(at 93.98 113.03)
+		(at 133.35 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02c3c551-8f94-4bdb-a692-1e1137657734")
+		(uuid "02ee570c-1562-4ca3-a6d9-0ddb53d00965")
 	)
 	(junction
-		(at 86.36 104.14)
+		(at 124.46 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fef2709-d32f-4ca9-bb2d-dfd337247232")
+		(uuid "2b109872-4b86-492c-b628-5258c7495525")
 	)
 	(junction
-		(at 129.54 97.79)
+		(at 53.34 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b6f6586-9de5-4c34-b89a-f3d2faf11842")
 	)
 	(junction
-		(at 129.54 113.03)
+		(at 114.3 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d3990e8-8c5f-461d-a40e-7065aa2fa27b")
+	)
+	(junction
+		(at 116.84 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f84ece2-63b0-4b8c-8924-c7f5e56c8e20")
+	)
+	(junction
+		(at 53.34 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4668a7-7150-443b-8ad0-dd11b389fdb4")
 	)
 	(junction
-		(at 129.54 102.87)
+		(at 53.34 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48aad890-b5d4-4acc-85d4-fd633a5008c6")
 	)
 	(junction
-		(at 87.63 118.11)
+		(at 19.05 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4acaadc2-b5da-425f-a563-11251e4d458f")
+		(uuid "4f27a13a-16fb-4d1e-9b9c-6776e04fc9f5")
 	)
 	(junction
-		(at 93.98 104.14)
+		(at 20.32 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5330bac8-06cc-4309-917e-7e01fa053764")
+		(uuid "559a60cb-1f61-4136-b340-e51f57c18672")
 	)
 	(junction
-		(at 88.9 125.73)
+		(at 114.3 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6fc8b095-e4f9-4893-bb8b-b5773c21e37a")
+		(uuid "561e9f2d-a2e2-4c58-8ea3-bde0e1225e0b")
 	)
 	(junction
-		(at 127 110.49)
+		(at 107.95 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a3c8a6d-8f7f-4cff-a31d-29b4206e3fa4")
+	)
+	(junction
+		(at 50.8 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67358c49-0260-4d28-891d-65f5d563503e")
+	)
+	(junction
+		(at 55.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d316ac-b960-473b-8144-e095b793da79")
+	)
+	(junction
+		(at 50.8 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7848d049-e446-408e-9c2b-081a422ea53d")
 	)
 	(junction
-		(at 109.22 123.19)
+		(at 69.85 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "960f1283-07e5-4c57-babe-bd8d0fb8f5fc")
+		(uuid "81f940e8-b485-49e2-960b-ff5e9426fc48")
 	)
 	(junction
-		(at 137.16 107.95)
+		(at 116.84 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e0505dc-5030-4310-bad7-3f6e5c78d5b9")
+	)
+	(junction
+		(at 116.84 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924229ba-435e-44e5-8a20-218eb4983ade")
+	)
+	(junction
+		(at 60.96 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a5a85cb-af1c-4ff2-a144-1731510b5f5b")
 	)
 	(junction
-		(at 91.44 110.49)
+		(at 119.38 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ab68d36-fe77-4cc0-a81e-53696f808e87")
+		(uuid "ac1b03b9-390c-45de-ad00-4bbcc1783939")
 	)
 	(junction
-		(at 96.52 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d328d84-d7ee-4e58-9144-d2470a2ad211")
-	)
-	(junction
-		(at 105.41 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abaae22d-505f-4782-8c6f-74aa714e738a")
-	)
-	(junction
-		(at 120.65 97.79)
+		(at 44.45 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8bbdc6c-49f6-48bb-87ec-8354320167e0")
 	)
 	(junction
-		(at 85.09 97.79)
+		(at 20.32 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5d7fb73-7667-4c9f-b2ff-6225cd232a75")
+		(uuid "b9ebbbcc-b7ec-4344-9116-9732a233b66c")
 	)
 	(junction
-		(at 127 114.3)
+		(at 21.59 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5b14655-577a-4140-bd77-57474ffd236a")
+		(uuid "c910ef68-1005-4d5b-8df9-144d41bc949f")
 	)
 	(junction
-		(at 130.81 125.73)
+		(at 77.47 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2f76d0e-c360-4ef8-8660-e28a4f17ff0a")
+		(uuid "e027dcc0-d8cd-4449-bcdf-dddf828d9dca")
 	)
 	(junction
-		(at 129.54 114.3)
+		(at 21.59 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f372833d-df36-4793-976a-4b280057ac24")
+		(uuid "ee083631-12c5-4183-a8e5-308561327db3")
+	)
+	(junction
+		(at 21.59 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef7e53a3-bdc1-4274-b3d2-aa200447cde4")
+	)
+	(junction
+		(at 62.23 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f103597b-4bcf-4950-99bb-1d301b0d8340")
+	)
+	(junction
+		(at 85.09 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1a05b07-0882-4381-90ba-ba65180be43b")
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 106.68 109.22)
+			(xy 20.32 114.3) (xy 20.32 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "012b8c5c-ded2-4b35-a449-80cd6ecc826a")
+		(uuid "0131651a-8ce4-4265-aacd-2db36762bf8f")
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 101.6 120.65)
+			(xy 85.09 113.03) (xy 85.09 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0179390d-ce15-4e62-bae0-392c0c810333")
+		(uuid "0187b49a-1873-417c-857c-a43d1c029ee7")
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 139.7 113.03)
+			(xy 143.51 125.73) (xy 140.97 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01a40c63-012e-4df3-8416-968f83c43c58")
+		(uuid "02b80ae5-28c9-4101-bc05-6d8888d56602")
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 88.9 128.27)
+			(xy 21.59 113.03) (xy 85.09 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06376e69-1e6c-4317-ac6a-ded165035c32")
+		(uuid "02cf2b89-ba4d-4d2f-a063-35fb8a12ac13")
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 123.19 102.87)
+			(xy 45.72 120.65) (xy 46.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 114.3) (xy 127 114.3)
+			(xy 40.64 129.54) (xy 41.91 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2072,37 +2096,67 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 105.41) (xy 93.98 104.14)
+			(xy 105.41 129.54) (xy 105.41 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "088aeef7-81c3-429b-8497-9b4f1ad3c4a6")
+		(uuid "114c357e-8c52-4121-bab3-e9753d26e8c5")
 	)
 	(wire
 		(pts
-			(xy 93.98 121.92) (xy 96.52 121.92)
+			(xy 60.96 137.16) (xy 62.23 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09680311-66e6-4095-8bd0-00cc572d2af7")
+		(uuid "1176799a-a793-4668-85ca-1eda35251091")
 	)
 	(wire
 		(pts
-			(xy 137.16 118.11) (xy 139.7 118.11)
+			(xy 134.62 134.62) (xy 134.62 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bc27da4-ffe0-47d5-ae99-145fed3f8a0e")
+		(uuid "12ec462d-62e8-40ab-82df-a4f96db8827b")
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 121.92 111.76)
+			(xy 33.02 128.27) (xy 35.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1347f2db-7eca-42a2-a9dd-3992956fcc48")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 69.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16095242-3412-45f6-b080-9bb87daf700f")
+	)
+	(wire
+		(pts
+			(xy 85.09 132.08) (xy 87.63 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164df863-f215-4487-a940-c9401fe5675c")
+	)
+	(wire
+		(pts
+			(xy 41.91 128.27) (xy 45.72 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2112,17 +2166,47 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 129.54 114.3)
+			(xy 107.95 115.57) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "213ca14a-d4d3-428f-91b8-f8dc778f75df")
+		(uuid "1d51afe6-9e89-4bd9-9348-a62ac3a11291")
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 137.16 102.87)
+			(xy 138.43 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d61d60b-3bb1-405e-a98d-fae93ed25d22")
+	)
+	(wire
+		(pts
+			(xy 85.09 142.24) (xy 107.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0264b9-470a-495f-aa2f-791734f37088")
+	)
+	(wire
+		(pts
+			(xy 72.39 121.92) (xy 69.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f54f54-3386-4142-86b6-ec06a87bc512")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 60.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2132,27 +2216,97 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 123.19) (xy 132.08 125.73)
+			(xy 135.89 142.24) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f36e57f-4ace-42c1-a97a-85dfa91df16a")
+		(uuid "2463617e-13c0-479c-a442-79ed64567582")
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 96.52 110.49)
+			(xy 124.46 137.16) (xy 125.73 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31945e6b-cdc8-4a3a-a925-f93724a31e39")
+		(uuid "258b7966-15a7-4f5d-961b-0a02d95f26ef")
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 147.32 115.57)
+			(xy 135.89 124.46) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278d40f4-068e-49d1-aa30-b35de36efa71")
+	)
+	(wire
+		(pts
+			(xy 133.35 120.65) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299cf71e-3cf3-4949-b311-778ed6ba45f6")
+	)
+	(wire
+		(pts
+			(xy 41.91 134.62) (xy 41.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9e8673-a07f-4c82-b70e-3ee20f16f192")
+	)
+	(wire
+		(pts
+			(xy 35.56 118.11) (xy 36.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca491df-e3fc-4929-ae0a-a85f02fff8ad")
+	)
+	(wire
+		(pts
+			(xy 105.41 134.62) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d568b93-c7c0-4c69-bc3b-457df9393ae6")
+	)
+	(wire
+		(pts
+			(xy 83.82 138.43) (xy 91.44 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec57dba-07bf-400c-bca9-5a22c89bc9c5")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 105.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fcfe6a-ac13-4a34-a4ab-c0545b290659")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 71.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2316,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 105.41 125.73)
+			(xy 116.84 134.62) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f8f6fc-41b4-4357-b96c-edd11913d13e")
+	)
+	(wire
+		(pts
+			(xy 21.59 142.24) (xy 44.45 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2172,17 +2336,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.65) (xy 105.41 125.73)
+			(xy 85.09 132.08) (xy 85.09 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a6f91e0-d925-44c5-9adb-50cd7b2ca455")
+		(uuid "36d2d750-01a9-4ec1-bae9-d65933e1701f")
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 129.54 97.79)
+			(xy 44.45 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2192,87 +2356,97 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 114.3 120.65)
+			(xy 55.88 142.24) (xy 69.85 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40a5217c-4b00-42c8-a6bd-77aefcc7401d")
+		(uuid "40549560-368b-4a8d-a354-b52425d9ef53")
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 111.76 120.65)
+			(xy 19.05 115.57) (xy 44.45 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44076b7a-c551-4088-9f77-6ee623d7db0b")
+		(uuid "4610f1ae-a180-4be8-a9fc-ec0adc6f0c8f")
 	)
 	(wire
 		(pts
-			(xy 87.63 118.11) (xy 90.17 118.11)
+			(xy 16.51 111.76) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4434ecaf-3fe0-4077-aad7-c1a7a8524bdd")
+		(uuid "49afed06-dc88-40fe-8fab-5ff8cd204cc2")
 	)
 	(wire
 		(pts
-			(xy 96.52 121.92) (xy 96.52 124.46)
+			(xy 21.59 132.08) (xy 24.13 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47c526a3-07f9-45ca-85ba-8e0c41711d7b")
+		(uuid "4e52716d-6343-4528-b1de-922209ae1adb")
 	)
 	(wire
 		(pts
-			(xy 83.82 110.49) (xy 91.44 110.49)
+			(xy 125.73 129.54) (xy 130.81 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f39e81a-cf0a-4d79-8bcb-fc8626c66221")
+		(uuid "508b47dc-9637-4954-80b4-46b60091656b")
 	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 151.13 107.95)
+			(xy 36.83 118.11) (xy 36.83 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fcb6808-ae93-41fc-bd9e-fd8667afd7b7")
+		(uuid "548dbc9a-0555-4014-b0ed-998efa84072e")
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 120.65)
+			(xy 83.82 114.3) (xy 83.82 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "548b6665-734b-424c-a2f2-b29ad5d8521d")
+		(uuid "5701ad13-4b02-4950-935d-cc6ae6f563b6")
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 121.92 110.49)
+			(xy 135.89 121.92) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57e6a6ca-eebe-4c23-9a72-99f411305043")
+		(uuid "577a5789-ec74-4476-810c-2dde2be3351c")
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 109.22 113.03)
+			(xy 21.59 142.24) (xy 21.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6f3498-f734-4456-bfb1-edaa4d34a3da")
+	)
+	(wire
+		(pts
+			(xy 33.02 127) (xy 31.75 127)
 		)
 		(stroke
 			(width 0)
@@ -2282,27 +2456,47 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 86.36 130.81)
+			(xy 31.75 137.16) (xy 26.67 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "652b61f9-6a3d-4e74-b7d6-f4692acdd105")
+		(uuid "5def847f-9861-4294-be15-221e3ef87db3")
 	)
 	(wire
 		(pts
-			(xy 101.6 120.65) (xy 105.41 120.65)
+			(xy 80.01 125.73) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "680774b4-0c52-4da5-8285-38119220f39e")
+		(uuid "62d09f0d-940e-4273-9941-d7bcb535adf8")
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 121.92 107.95)
+			(xy 106.68 134.62) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b42e663-77fe-4d87-9e60-cb4ca6891223")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c885b5c-8b9e-4be6-950a-208ffbf7c9e6")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 45.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2312,87 +2506,117 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 86.36 104.14)
+			(xy 22.86 123.19) (xy 27.94 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "738d18eb-2e1e-4d28-a1f3-0ab9d70c971f")
+		(uuid "70438eab-d411-4f68-9b92-22fdff71ad38")
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 158.75 107.95)
+			(xy 109.22 125.73) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77000ca9-24a0-408e-942a-f039b40ef7e5")
+		(uuid "73ed0836-bef4-473c-b303-b2ebe02ef1be")
 	)
 	(wire
 		(pts
-			(xy 146.05 106.68) (xy 151.13 106.68)
+			(xy 96.52 127) (xy 96.52 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78481797-82b5-48b9-8f79-40726580fd64")
+		(uuid "75908645-76ae-4948-b810-84b4e5fde81e")
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 120.65 124.46)
+			(xy 80.01 110.49) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a3f6c1a-f0e2-4758-a614-ce8f8325bc3e")
+		(uuid "766d4649-11b7-4839-a8ad-e678d1506094")
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 143.51 113.03)
+			(xy 41.91 132.08) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ff39577-f6be-4692-b71b-0a46e5e9be1e")
+		(uuid "76bca0f5-900e-4e98-979e-3c9bcc5f3abc")
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 99.06 113.03)
+			(xy 109.22 120.65) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8291eb23-f81e-40a0-98d5-1f9e9814169c")
+		(uuid "78d71d3a-4446-40fd-939c-d0a41006a589")
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 105.41 113.03)
+			(xy 41.91 130.81) (xy 50.8 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82af1a82-f4e0-45e1-800c-cfffa0375602")
+		(uuid "7fa3dd46-e136-4a2d-86ff-d7e8a6ea5223")
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 132.08 118.11)
+			(xy 19.05 115.57) (xy 19.05 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84c77d5b-ec83-44f0-aede-902ee693201c")
+		(uuid "7ff39bdc-3cf7-4420-871b-0ed284649354")
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 127 114.3)
+			(xy 86.36 110.49) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8014499d-27e8-4948-abc8-ce7c4bcf2cd4")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84109d91-c2ee-486d-b4f5-1d824c677e2c")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be0d12-c737-476c-9f87-e352a2b0e3bd")
+	)
+	(wire
+		(pts
+			(xy 50.8 128.27) (xy 50.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2402,97 +2626,137 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 93.98 121.92)
+			(xy 107.95 125.73) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8de5053e-27ca-4b21-8186-9eb448aa226b")
+		(uuid "866ed42e-199b-44b7-84e6-a72f94734f69")
 	)
 	(wire
 		(pts
-			(xy 96.52 124.46) (xy 114.3 124.46)
+			(xy 52.07 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e21d027-feda-44e3-9ae7-9f74c3c1536c")
+		(uuid "87b1f078-51a2-4c1a-bf56-e5bb2d0cef8a")
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 105.41 115.57)
+			(xy 20.32 114.3) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "912352c4-c937-47f4-b401-e942f361bec9")
+		(uuid "87e6acab-f4b9-4843-b8c1-f6b8340abfcc")
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 120.65 97.79)
+			(xy 21.59 110.49) (xy 21.59 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9209256c-d3eb-45f6-9dbd-dd83504893ed")
+		(uuid "8b4da0e9-60af-4be0-86a3-8cfd5b0a9f69")
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 132.08 123.19)
+			(xy 20.32 138.43) (xy 20.32 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94ae10c6-a700-4f0f-9042-b9b01b81b686")
+		(uuid "8b9ce8e2-bff1-4cd0-8815-051621122da2")
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 132.08 125.73)
+			(xy 21.59 113.03) (xy 21.59 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cbc8d25-6034-4d57-9b94-0e65d5b0ee6b")
+		(uuid "8e1d82e0-21e5-49c7-bf84-14879bc0c521")
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 129.54 114.3)
+			(xy 110.49 125.73) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f13a947-0d22-40cb-91e0-92717a305aa6")
+		(uuid "91285795-88d2-4b4e-b578-be61ee9a8158")
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 85.09 132.08)
+			(xy 96.52 127) (xy 95.25 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f5b7693-a8c6-41e3-b1c8-4a55a1b2e5f7")
+		(uuid "93335cd0-4206-4215-82cf-1b145f843deb")
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 111.76 123.19)
+			(xy 143.51 110.49) (xy 143.51 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a12634b0-ba77-4ae7-8070-0018f0fab34a")
+		(uuid "94b9e222-786f-44b8-9dbf-0247209a44f8")
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 146.05 106.68)
+			(xy 116.84 115.57) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bb5f95-a284-424f-a712-bc3c4984b30d")
+	)
+	(wire
+		(pts
+			(xy 72.39 121.92) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf228c6-b4a1-41b5-9329-b605ae82d224")
+	)
+	(wire
+		(pts
+			(xy 62.23 111.76) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e515114-408d-47c5-a5f1-6d825cee8a07")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00fb17a-c432-4ccd-8bf8-bd649f3d43b1")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 69.85 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2766,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 129.54 114.3)
+			(xy 43.18 134.62) (xy 43.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63d335f-bef7-4067-a025-091df06fd61d")
+	)
+	(wire
+		(pts
+			(xy 53.34 130.81) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a883c31a-a5a6-4456-83f7-ee97e8f218aa")
+	)
+	(wire
+		(pts
+			(xy 50.8 130.81) (xy 53.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2512,37 +2796,47 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 113.03 99.06)
+			(xy 53.34 134.62) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9381ef5-5d73-4253-a4a3-3bbb21bae644")
+		(uuid "aa8b1495-6370-4527-9df5-16450b6e541e")
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 93.98 104.14)
+			(xy 62.23 111.76) (xy 125.73 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0399bc4-e38e-4ccb-a554-14f80ed74922")
+		(uuid "ab07b372-df04-4851-9b21-de888046b6a6")
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 130.81 115.57)
+			(xy 99.06 118.11) (xy 100.33 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0be19db-40bb-4b30-873e-51d21f6595d0")
+		(uuid "abb98cbc-335d-4500-abc1-78752aa8efa9")
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 127 110.49)
+			(xy 106.68 139.7) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17c44e7-6e66-41ad-ab07-6e30a55d0c36")
+	)
+	(wire
+		(pts
+			(xy 50.8 125.73) (xy 50.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2552,27 +2846,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 109.22) (xy 111.76 109.22)
+			(xy 77.47 115.57) (xy 107.95 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd9a574f-510b-49d1-958d-9506497dddb2")
+		(uuid "b4ac3d64-79b7-4427-b075-154b46abadd8")
 	)
 	(wire
 		(pts
-			(xy 138.43 92.71) (xy 138.43 120.65)
+			(xy 20.32 138.43) (xy 27.94 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be388421-bad9-4fe9-bddc-ce3dddbce0f1")
+		(uuid "b5516f13-5bd1-4a9e-a922-5aa5336cc34a")
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 123.19 120.65)
+			(xy 116.84 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1c5bde-f34d-42f1-992f-a83e12733d5b")
+	)
+	(wire
+		(pts
+			(xy 44.45 142.24) (xy 44.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2886,27 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 85.09 97.79)
+			(xy 21.59 132.08) (xy 21.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f7b6ea-b505-4c9e-94ca-3d77e26f5b0f")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c515dae4-dbab-4c7b-a9f8-050a8aa958a0")
+	)
+	(wire
+		(pts
+			(xy 19.05 110.49) (xy 19.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 147.32 115.57)
+			(xy 69.85 132.08) (xy 71.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2602,57 +2926,67 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 91.44 118.11)
+			(xy 33.02 127) (xy 33.02 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8a693e2-61db-4450-a2d9-fa581e20cb63")
+		(uuid "c83067f1-44a0-438a-8504-0f46e8cd8b4a")
 	)
 	(wire
 		(pts
-			(xy 105.41 125.73) (xy 123.19 125.73)
+			(xy 105.41 128.27) (xy 109.22 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc89a741-cda9-4f9f-9b05-bc01ae55c7ef")
+		(uuid "c83ba147-a635-4632-bc22-4e3d1d259896")
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 109.22 123.19)
+			(xy 60.96 135.89) (xy 60.96 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccd34db4-2f91-46f0-8f77-017b41333cd3")
+		(uuid "ca9b8e5a-2d04-4d1f-9525-c78a9232c6fa")
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 130.81 125.73)
+			(xy 135.89 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d04f3387-441a-4745-baf4-85f60f702b90")
+		(uuid "cabde778-a600-46f8-9e48-5128121f303e")
 	)
 	(wire
 		(pts
-			(xy 104.14 105.41) (xy 106.68 105.41)
+			(xy 114.3 128.27) (xy 114.3 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d073e37a-ed44-4717-934a-ebd43db717a1")
+		(uuid "cc10ae27-5138-4174-97ff-8a7e1d616614")
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 127 107.95)
+			(xy 105.41 132.08) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8368da-b31f-4dae-adde-dc4ec0e133cd")
+	)
+	(wire
+		(pts
+			(xy 46.99 125.73) (xy 50.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2662,17 +2996,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 88.9 125.73)
+			(xy 115.57 142.24) (xy 119.38 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d460e3c2-1c06-4720-a61c-b7b09efe9fc6")
+		(uuid "d2c55c22-4b3f-4b8d-9208-0bc079169ed7")
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 153.67 97.79)
+			(xy 114.3 130.81) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40901d7-4cd1-456e-b2d1-f7273fbdf0a1")
+	)
+	(wire
+		(pts
+			(xy 53.34 115.57) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2682,77 +3026,87 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 104.14 104.14)
+			(xy 22.86 110.49) (xy 22.86 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6e34a68-8fec-4788-9437-1b9affa895a1")
+		(uuid "d8d32d9e-d7ed-43e9-b68f-6ea7cbadc641")
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 96.52 124.46)
+			(xy 20.32 110.49) (xy 20.32 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd87b673-fb1b-4413-9f9c-53405db7f314")
+		(uuid "dd5ac7eb-28e1-49dd-83f5-4e9e49a45800")
 	)
 	(wire
 		(pts
-			(xy 87.63 118.11) (xy 87.63 129.54)
+			(xy 96.52 134.62) (xy 96.52 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0723d79-4b82-4f66-9066-79d25eda0f9d")
+		(uuid "ddda683d-2aa4-4d96-b9dc-ffb721880183")
 	)
 	(wire
 		(pts
-			(xy 132.08 118.11) (xy 133.35 118.11)
+			(xy 62.23 129.54) (xy 67.31 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e55a6779-c0b0-4502-b823-abaa39eea5f1")
+		(uuid "e1a9c6a6-2720-46bc-b9d0-a366cd4101fc")
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 90.17 123.19)
+			(xy 95.25 137.16) (xy 90.17 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e64c2528-6a36-4adc-bab9-a1f9313bfe24")
+		(uuid "e25cde69-1bb2-40c1-8220-cefca7e1118f")
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 113.03 102.87)
+			(xy 124.46 135.89) (xy 124.46 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7c77bb2-0ebd-42d2-ac99-2c208fb6189f")
+		(uuid "e79eb249-8983-4cb1-9da1-3670322df266")
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 148.59 125.73)
+			(xy 86.36 123.19) (xy 91.44 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebaff9d2-1913-4c7b-adf4-a474964ee25e")
+		(uuid "ea084ab4-7e2a-41ff-b4f9-2a5119cc263a")
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 147.32 118.11)
+			(xy 119.38 142.24) (xy 133.35 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8d3de3-0b37-404b-b8fc-9e705107ebe5")
+	)
+	(wire
+		(pts
+			(xy 74.93 134.62) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2762,17 +3116,77 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 88.9 93.98)
+			(xy 107.95 142.24) (xy 107.95 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed6b575d-9593-40f8-a119-cc747b44e385")
+		(uuid "ed05da3e-cc77-46a0-bbd0-34d2265c0148")
 	)
 	(wire
 		(pts
-			(xy 121.92 107.95) (xy 121.92 102.87)
+			(xy 133.35 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed73c6e3-e167-40ba-abef-f45556cd434c")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 105.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeec55d6-66ab-4612-a25a-1ecf0c9c1a45")
+	)
+	(wire
+		(pts
+			(xy 33.02 134.62) (xy 33.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef93186d-2bbe-4566-ab0b-e96a5ae78266")
+	)
+	(wire
+		(pts
+			(xy 105.41 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef974c14-4d01-4eb4-aa6d-1ff20feab827")
+	)
+	(wire
+		(pts
+			(xy 43.18 139.7) (xy 40.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f015a40f-b645-4fee-a85e-985dd8b88a55")
+	)
+	(wire
+		(pts
+			(xy 43.18 134.62) (xy 41.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4857ea6-75e4-4734-8dfe-c6a285858c31")
+	)
+	(wire
+		(pts
+			(xy 45.72 125.73) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2782,26 +3196,26 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 92.71) (xy 87.63 118.11)
+			(xy 125.73 111.76) (xy 125.73 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe63bed2-d791-4559-bd3a-ae00e3dfe8f6")
+		(uuid "fb0fd32a-559a-47f0-9a08-650aa01bbfeb")
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 120.65 124.46)
+			(xy 41.91 129.54) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff02f2b7-c521-4ca2-9d76-e279f67b51f8")
+		(uuid "fe06c422-afdc-4783-b158-2d2ce5a559aa")
 	)
 	(label "S0"
-		(at 160.02 106.68 0)
+		(at 80.01 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2810,18 +3224,38 @@
 		)
 		(uuid "25648acf-b07f-4093-aef1-f931dc2a59de")
 	)
+	(label "D1"
+		(at 86.36 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2669a9b8-f252-4749-a990-177211eeba9a")
+	)
 	(label "D0"
-		(at 83.82 110.49 180)
+		(at 22.86 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26dc864b-d4c8-4bb0-affe-81112f416b43")
+	)
+	(label "IA0"
+		(at 16.51 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "26dc864b-d4c8-4bb0-affe-81112f416b43")
+		(uuid "2eb918f2-4f91-4465-9b28-6cc60c429137")
 	)
 	(label "VDD"
-		(at 85.09 92.71 90)
+		(at 19.05 110.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2831,17 +3265,27 @@
 		(uuid "6b77be02-295e-41ff-880a-65c4f0e9b6fc")
 	)
 	(label "WE0"
-		(at 81.28 93.98 180)
+		(at 21.59 110.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8d0c62fb-c486-4ac8-8e4e-7d99eeabe5b7")
 	)
+	(label "S1"
+		(at 143.51 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93a57d6b-72c1-4a88-bb50-8a149b6003cb")
+	)
 	(label "Rst"
-		(at 87.63 92.71 90)
+		(at 20.32 110.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2850,19 +3294,9 @@
 		)
 		(uuid "df786914-07ed-47e7-b47d-bb922e308d04")
 	)
-	(label "CLK"
-		(at 86.36 92.71 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f33aef9e-a0a2-400c-9a0a-772ea3ce4b08")
-	)
 	(symbol
 		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 148.59 113.03 0)
+		(at 72.39 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2870,7 +3304,7 @@
 		(dnp no)
 		(uuid "06f589f9-fe19-481c-96bd-4b4d0cbde20c")
 		(property "Reference" "NQ?"
-			(at 143.002 107.95 0)
+			(at 65.278 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3313,7 @@
 			)
 		)
 		(property "Value" "DTC114E-THT"
-			(at 153.67 114.2999 0)
+			(at 77.47 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 148.59 113.03 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 113.03 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +3343,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 148.844 117.602 0)
+			(at 72.644 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,8 +3370,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 123.19 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bdb4fa7-2fe9-426f-a740-157139982391")
+		(property "Reference" "R?"
+			(at 125.73 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 125.73 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "572f0684-6f85-43c7-b7fe-0968fc931d62")
+		)
+		(pin "1"
+			(uuid "a112e61e-fd4d-4570-9d39-3be374ea8c12")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0df5f932-b070-4218-9e32-0b37b02fbc6c")
+		(property "Reference" "R?"
+			(at 56.896 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 56.896 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.102 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d39c3c4e-1d90-41bb-90d6-3f5d24ef6c57")
+		)
+		(pin "1"
+			(uuid "a5179a0d-4916-48f4-b4ea-0528523f16f8")
+		)
+		(instances
+			(project ""
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Small_Filled")
-		(at 90.17 120.65 90)
+		(at 30.48 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2945,7 +3518,7 @@
 		(dnp no)
 		(uuid "1b06d17b-c6ce-47d0-b6bd-9b0a98a91261")
 		(property "Reference" "D?"
-			(at 90.17 123.444 90)
+			(at 29.464 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3527,7 @@
 			)
 		)
 		(property "Value" "30V0.2A"
-			(at 92.71 122.1739 90)
+			(at 32.0039 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3537,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 90.17 120.65 90)
+			(at 30.48 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 120.65 90)
+			(at 30.48 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +3555,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol, filled shape"
-			(at 90.17 120.65 0)
+			(at 30.48 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,83 +3579,8 @@
 		)
 	)
 	(symbol
-		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 109.22 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d8e8a06-4f44-489b-8a14-bf2509da52d4")
-		(property "Reference" "NQ?"
-			(at 111.76 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DTC114E-THT"
-			(at 114.3 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 109.474 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "68e19efa-2eff-4e6b-aca1-f34d0d4baf0d")
-		)
-		(pin "2"
-			(uuid "ac03f52f-c70b-4707-ad3e-e2409da56d57")
-		)
-		(pin "1"
-			(uuid "e8ee470c-7216-4bf0-a9b0-ad49aa377c38")
-		)
-		(instances
-			(project "RT08-ProgramBoard"
-				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "NQ?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 137.16 105.41 0)
+		(at 60.96 123.19 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3091,7 +3589,7 @@
 		(dnp no)
 		(uuid "1da8238f-e694-4902-8988-295a1d878c45")
 		(property "Reference" "R?"
-			(at 138.43 104.14 0)
+			(at 62.23 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3598,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 138.43 106.426 0)
+			(at 62.23 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3607,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 137.16 105.41 0)
+			(at 60.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 105.41 0)
+			(at 60.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3625,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 137.16 105.41 0)
+			(at 60.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,82 +3649,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 125.73 0)
-		(mirror x)
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 135.89 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c66b1fe-0a3f-4808-a586-adc16b52e88f")
-		(property "Reference" "#PWR?"
-			(at 125.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "G"
-			(at 124.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d541fa0a-ea29-4ed9-b463-232d0e2cd885")
-		)
-		(instances
-			(project "RT08-ProgramBoard"
-				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "YoshLibrary:DTC143E-THT")
-		(at 106.68 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51207ebf-8772-49f3-862c-11d47a2edc71")
+		(uuid "24320b9f-e111-4493-ad9a-468f1da149aa")
 		(property "Reference" "NQ?"
-			(at 106.68 112.014 0)
+			(at 128.778 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,8 +3666,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTC143E-THT"
-			(at 111.76 119.3799 0)
+		(property "Value" "DTC114E-THT"
+			(at 140.97 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 106.68 118.11 0)
+			(at 135.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 118.11 0)
+			(at 135.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,8 +3696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 4.7k/4.7k, TO-92"
-			(at 106.934 122.682 0)
+		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
+			(at 136.144 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,14 +3705,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0095587c-ee9a-4b46-8352-9b36b57a4bb2")
-		)
 		(pin "3"
-			(uuid "78675819-fe37-4215-b161-513f754d0304")
+			(uuid "6694ea1b-6c91-43d5-a8ad-16ec04564c39")
 		)
 		(pin "2"
-			(uuid "41b64803-562e-43dc-ab00-5acfd592f9e8")
+			(uuid "b4862745-c6ab-41b8-a284-06562979b7e8")
+		)
+		(pin "1"
+			(uuid "144e5d9c-23fb-4f4d-8e78-87a95571d15e")
 		)
 		(instances
 			(project "RT08-ProgramBoard"
@@ -3292,16 +3724,87 @@
 		)
 	)
 	(symbol
-		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 143.51 120.65 0)
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 93.98 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5b721c0b-fec9-43c7-b4bf-5e870581af16")
-		(property "Reference" "NQ?"
-			(at 147.574 119.126 0)
+		(uuid "3f67ffca-b348-4951-bea3-ba28f92f45c8")
+		(property "Reference" "D?"
+			(at 92.964 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30V0.2A"
+			(at 95.5039 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 93.98 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b043d5a2-cd27-42c4-8031-b62a2bbbf542")
+		)
+		(pin "2"
+			(uuid "3e34b429-a56a-4886-8e31-d0116533d407")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 123.19 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40008815-80db-4b27-adb7-8716461b929e")
+		(property "Reference" "R?"
+			(at 110.49 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,8 +3812,76 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTC114E-THT"
-			(at 148.59 121.9199 0)
+		(property "Value" "5.1k"
+			(at 113.284 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b1f639b-a72d-4ef0-a00f-e155d3ea4e2c")
+		)
+		(pin "1"
+			(uuid "2801561f-2392-4301-aa8d-9c651833855e")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTA143E-THT")
+		(at 138.43 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b87d4b1-964f-4a67-910a-870adad49931")
+		(property "Reference" "PQ?"
+			(at 130.048 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTA143E-THT"
+			(at 143.51 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3891,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 143.51 120.65 0)
+			(at 138.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3901,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 120.65 0)
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital PNP Transistor, 10k/10k, TO-92"
+			(at 138.684 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a1dda72d-c000-40b0-8643-d2d12ee00103")
+		)
+		(pin "1"
+			(uuid "1a029205-1944-41b7-82df-d569ad735ee2")
+		)
+		(pin "2"
+			(uuid "efa5cf11-da21-412c-b03e-bcfaf61fe57b")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "PQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 96.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55d346bd-f37c-4111-9fd1-7a9df73f71d0")
+		(property "Reference" "NQ?"
+			(at 90.424 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC114E-THT"
+			(at 101.6 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3986,292 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 143.764 125.222 0)
+			(at 96.774 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "47065f15-a35c-41ff-afb9-19624f1cfa49")
+		)
+		(pin "2"
+			(uuid "973a14e0-fe90-41fb-9727-133339327216")
+		)
+		(pin "1"
+			(uuid "535a0b14-3ef3-4c1d-891a-b957729e4ca2")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTA143E-THT")
+		(at 105.41 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56e62dcb-887c-4638-8696-ec4584a81405")
+		(property "Reference" "PQ?"
+			(at 108.204 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTA143E-THT"
+			(at 110.49 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital PNP Transistor, 10k/10k, TO-92"
+			(at 105.664 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3def7d01-5d4c-4196-847d-c6b17d1c7c47")
+		)
+		(pin "1"
+			(uuid "93ff8c64-057a-45ed-86dd-c8e87271b565")
+		)
+		(pin "2"
+			(uuid "0b2cdb23-08e9-4c67-977c-3c14ca14784a")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "PQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58972e16-0f7b-4f67-ac47-1d43a9c5504e")
+		(property "Reference" "R?"
+			(at 120.396 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.396 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.602 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4604356e-e035-4a18-9fda-ca8d89bd54e8")
+		)
+		(pin "1"
+			(uuid "1c3f3472-d670-44b7-b206-918bc7692564")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 128.27 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a7ad1f3-30b6-484a-9e88-2e1d0116c861")
+		(property "Reference" "#PWR?"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "G"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f947eb9d-3886-46be-8b79-982a2eab59d6")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 67.31 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b721c0b-fec9-43c7-b4bf-5e870581af16")
+		(property "Reference" "NQ?"
+			(at 59.436 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC114E-THT"
+			(at 72.39 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
+			(at 67.564 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,55 +4298,42 @@
 		)
 	)
 	(symbol
-		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 96.52 118.11 0)
+		(lib_id "power:GND")
+		(at 135.89 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6faedb5b-ebc6-40c6-a55f-fb9592b054fd")
-		(property "Reference" "NQ?"
-			(at 99.06 122.174 0)
+		(uuid "5fdb6b23-012c-4a02-82ef-22676ddd4591")
+		(property "Reference" "#PWR?"
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "DTC114E-THT"
-			(at 101.6 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 96.52 118.11 0)
+		(property "Value" "G"
+			(at 134.112 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 96.774 122.682 0)
+			(at 135.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,35 +4341,176 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "53fa51d7-88d4-4628-8756-d5bdd40934c4")
-		)
-		(pin "2"
-			(uuid "3144f881-260c-4289-b3ae-29f1d28d8e3b")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "a94059b9-d798-4864-862f-9c1855f2715b")
+			(uuid "35cd61c0-c873-499d-94ff-263c7cdce6f6")
 		)
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "NQ?")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1815")
-		(at 134.62 113.03 0)
+		(lib_id "Device:R_Small")
+		(at 116.84 118.11 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60ee0fca-7e6b-4fac-988d-feef32961711")
+		(property "Reference" "R?"
+			(at 117.602 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 118.872 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a9dc387-1c18-4a86-8726-e00eb53e63df")
+		)
+		(pin "1"
+			(uuid "5466667a-3b17-424f-ba61-1417198dddea")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.76 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "784f263d-9fa6-4d07-856c-4a700f224248")
+		(property "Reference" "C?"
+			(at 105.918 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 106.934 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f03c4fb-deb6-45ba-b388-898c3da1a616")
+		)
+		(pin "1"
+			(uuid "a226f091-c5fe-4d1d-9521-799c9cffbd9a")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:2SC1815")
+		(at 58.42 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "80055b63-7ca2-4db5-9f09-482555349d0e")
-		(property "Reference" "NQ?"
-			(at 138.43 110.236 0)
+		(property "Reference" "NX?"
+			(at 62.484 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +4519,7 @@
 			)
 		)
 		(property "Value" "2SC1815"
-			(at 139.7 114.2999 0)
+			(at 63.5 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 139.7 114.935 0)
+			(at 63.5 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +4540,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
-			(at 134.62 113.03 0)
+			(at 58.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +4550,7 @@
 			)
 		)
 		(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
-			(at 134.62 113.03 0)
+			(at 58.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,6 +4570,81 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NX?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 130.81 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b20016-e554-4c98-ae7c-6707aef80190")
+		(property "Reference" "NQ?"
+			(at 122.936 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC114E-THT"
+			(at 135.89 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
+			(at 131.064 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "186f7df7-8bec-4573-a49b-ff3dd26eacad")
+		)
+		(pin "2"
+			(uuid "e38b313c-6aab-4881-85a3-0772e2760fb2")
+		)
+		(pin "1"
+			(uuid "8ba17f4e-f550-4552-89c3-64622bf63175")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
 					(reference "NQ?")
 					(unit 1)
 				)
@@ -3518,78 +4652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 93.98 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89dd8f72-f401-48c2-b47b-d70e975d87db")
-		(property "Reference" "R?"
-			(at 94.996 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 94.996 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 95.758 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "253b42a1-c257-4308-bf6d-b1ea8b0c2f6c")
-		)
-		(pin "2"
-			(uuid "9a674f75-736d-48d9-92ef-c5bb0a552e70")
-		)
-		(instances
-			(project "RT08-ProgramBoard"
-				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 110.49 90)
+		(at 48.26 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3597,7 +4661,7 @@
 		(dnp no)
 		(uuid "917ea765-0e58-4080-89eb-c37b8d31df77")
 		(property "Reference" "C?"
-			(at 121.412 113.284 90)
+			(at 42.418 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +4670,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 119.634 108.966 90)
+			(at 43.434 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4679,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 124.46 110.49 0)
+			(at 48.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +4688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 110.49 0)
+			(at 48.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 110.49 0)
+			(at 48.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,16 +4721,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SA1015")
-		(at 132.08 107.95 180)
+		(lib_id "YoshLibrary:2SA1015")
+		(at 55.88 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "91b13802-b334-43dd-99d0-747d42f57d60")
-		(property "Reference" "PQ?"
-			(at 129.54 104.14 0)
+		(property "Reference" "PX?"
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +4739,7 @@
 			)
 		)
 		(property "Value" "2SA1015"
-			(at 127 109.2199 0)
+			(at 50.8 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +4749,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 127 106.045 0)
+			(at 50.8 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +4760,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf"
-			(at 132.08 107.95 0)
+			(at 55.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +4770,7 @@
 			)
 		)
 		(property "Description" "-0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92"
-			(at 132.08 107.95 0)
+			(at 55.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +4790,158 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "PQ?")
+					(reference "PX?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:2SA1015")
+		(at 119.38 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944636fb-b3fa-4593-a8f9-561c62665b83")
+		(property "Reference" "PX?"
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2SA1015"
+			(at 114.3 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "db27d2a8-0c69-4617-9909-82a1fefa87a3")
+		)
+		(pin "1"
+			(uuid "9083bf04-9e26-4fa4-b4d0-f5b0cf2ccbdc")
+		)
+		(pin "2"
+			(uuid "8e96d191-d00c-4404-9483-9736cd1a743b")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "PX?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTC143E-THT")
+		(at 113.03 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fb0b1fb-2728-42ec-b9f6-85606945fa9c")
+		(property "Reference" "NQ?"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC143E-THT"
+			(at 118.11 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 4.7k/4.7k, TO-92"
+			(at 113.284 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199e14e5-e6ad-43b1-b7a4-b72cbb701bf2")
+		)
+		(pin "3"
+			(uuid "b1c10710-9116-468b-81a4-a280547e659e")
+		)
+		(pin "2"
+			(uuid "0dcfe9da-13e8-4794-b865-7299b0f03988")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NQ?")
 					(unit 1)
 				)
 			)
@@ -3734,7 +4949,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 105.41 0)
+		(at 46.99 123.19 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3743,7 +4958,7 @@
 		(dnp no)
 		(uuid "a68cc0b8-ce8f-41f1-9214-7a9f25add0d4")
 		(property "Reference" "R?"
-			(at 123.19 102.616 0)
+			(at 46.99 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +4967,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 125.984 106.426 0)
+			(at 49.784 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 123.19 105.41 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 105.41 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +4993,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 123.19 105.41 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,15 +5018,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 125.73 180)
+		(at 72.39 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9526235-4818-4a67-a32a-2be1b7f1474f")
-		(property "Reference" "#PWR01"
-			(at 148.59 119.38 0)
+		(property "Reference" "#PWR?"
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +5035,7 @@
 			)
 		)
 		(property "Value" "G"
-			(at 149.86 123.19 0)
+			(at 70.612 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +5043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 125.73 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +5052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 125.73 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +5061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 125.73 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,23 +5075,23 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YoshLibrary:DTA143E-THT")
-		(at 118.11 102.87 0)
+		(lib_id "YoshLibrary:DTC143E-THT")
+		(at 101.6 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1547660-186a-4085-8786-43275dcd2ecb")
-		(property "Reference" "PQ?"
-			(at 120.904 99.314 0)
+		(uuid "aefd7a42-9c46-4e25-87cb-5669470f7541")
+		(property "Reference" "NQ?"
+			(at 97.536 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,8 +5099,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTA143E-THT"
-			(at 123.19 104.1399 0)
+		(property "Value" "DTC143E-THT"
+			(at 106.68 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +5110,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 118.11 102.87 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +5120,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 102.87 0)
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 4.7k/4.7k, TO-92"
+			(at 101.854 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80aa9fbb-b063-4905-a216-733a41b151c3")
+		)
+		(pin "3"
+			(uuid "d7617f73-fb0a-4d15-a664-6b8b3200642a")
+		)
+		(pin "2"
+			(uuid "a73b8060-bad1-4036-b068-793b1cedec5e")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTA143E-THT")
+		(at 41.91 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1547660-186a-4085-8786-43275dcd2ecb")
+		(property "Reference" "PQ?"
+			(at 44.704 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTA143E-THT"
+			(at 46.99 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 41.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +5205,7 @@
 			)
 		)
 		(property "Description" "Digital PNP Transistor, 10k/10k, TO-92"
-			(at 118.364 107.442 0)
+			(at 42.164 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +5233,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:DTA143E-THT")
-		(at 151.13 102.87 0)
+		(at 74.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +5241,7 @@
 		(dnp no)
 		(uuid "ba28ddef-c231-4348-b810-231f5b60eac8")
 		(property "Reference" "PQ?"
-			(at 153.924 99.06 0)
+			(at 66.548 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +5250,7 @@
 			)
 		)
 		(property "Value" "DTA143E-THT"
-			(at 156.21 104.1399 0)
+			(at 80.01 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 151.13 102.87 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +5270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 102.87 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +5280,7 @@
 			)
 		)
 		(property "Description" "Digital PNP Transistor, 10k/10k, TO-92"
-			(at 151.384 107.442 0)
+			(at 75.184 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:DTC143E-THT")
-		(at 128.27 120.65 0)
+		(at 49.53 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4026,7 +5316,7 @@
 		(dnp no)
 		(uuid "bc0f1625-914a-4fc0-91a2-f905d2e00877")
 		(property "Reference" "NQ?"
-			(at 120.65 116.586 0)
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +5325,7 @@
 			)
 		)
 		(property "Value" "DTC143E-THT"
-			(at 133.35 121.9199 0)
+			(at 54.61 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +5335,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 128.27 120.65 0)
+			(at 49.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +5345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 120.65 0)
+			(at 49.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +5355,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 4.7k/4.7k, TO-92"
-			(at 128.524 125.222 0)
+			(at 49.784 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,8 +5382,148 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 90.17 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c7ac85-559d-4ff9-acbe-c5c3bfe541b0")
+		(property "Reference" "#PWR?"
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "G"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32287619-8a6a-4c2a-a176-be49fe8e774d")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 92.71 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b5899c-7651-4ab6-9183-405e852408ba")
+		(property "Reference" "NQ?"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC114E-THT"
+			(at 97.79 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
+			(at 92.964 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6594c2a-ebc1-4a2a-b76b-5c8444558689")
+		)
+		(pin "2"
+			(uuid "3b588604-4456-462f-b65a-ab449b4707a0")
+		)
+		(pin "1"
+			(uuid "b1f878ad-6f0b-4bc0-a37f-c533314a4860")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 129.54 100.33 0)
+		(at 53.34 118.11 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4102,7 +5532,7 @@
 		(dnp no)
 		(uuid "db7a203a-29fc-4d7f-95c8-9638c5f76209")
 		(property "Reference" "R?"
-			(at 130.302 99.314 0)
+			(at 54.102 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +5541,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 131.572 101.346 0)
+			(at 55.372 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +5549,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 129.54 100.33 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +5558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 100.33 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +5567,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 129.54 100.33 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:DTC143E-THT")
-		(at 116.84 119.38 0)
+		(at 38.1 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4170,7 +5600,7 @@
 		(dnp no)
 		(uuid "db9d431c-face-4108-99d6-92d0c3ab7115")
 		(property "Reference" "NQ?"
-			(at 110.49 114.554 0)
+			(at 34.036 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +5609,7 @@
 			)
 		)
 		(property "Value" "DTC143E-THT"
-			(at 121.92 120.6499 0)
+			(at 43.18 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 116.84 119.38 0)
+			(at 38.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 119.38 0)
+			(at 38.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +5639,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 4.7k/4.7k, TO-92"
-			(at 117.094 123.952 0)
+			(at 38.354 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +5667,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 101.6 110.49 0)
+		(at 33.02 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4245,7 +5675,7 @@
 		(dnp no)
 		(uuid "e3e427a8-9878-4d3a-b5b2-66d4b8f23204")
 		(property "Reference" "NQ?"
-			(at 105.41 110.236 0)
+			(at 26.924 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +5684,7 @@
 			)
 		)
 		(property "Value" "DTC114E-THT"
-			(at 106.68 111.7599 0)
+			(at 38.1 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +5694,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 101.6 110.49 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +5704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 110.49 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +5714,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 101.854 115.062 0)
+			(at 33.274 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +5742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 111.76 0)
+		(at 41.91 128.27 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4321,7 +5751,7 @@
 		(dnp no)
 		(uuid "e874e7a9-8264-4862-a902-6677b6b07b59")
 		(property "Reference" "#PWR?"
-			(at 119.38 105.41 0)
+			(at 41.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +5760,7 @@
 			)
 		)
 		(property "Value" "G"
-			(at 118.11 109.22 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +5768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 111.76 0)
+			(at 41.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +5777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 111.76 0)
+			(at 41.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +5786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 111.76 0)
+			(at 41.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,8 +5807,159 @@
 		)
 	)
 	(symbol
+		(lib_id "YoshLibrary:DTC114E-THT")
+		(at 29.21 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaa1a0d9-83a6-4fdf-9138-f135af54390b")
+		(property "Reference" "NQ?"
+			(at 24.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC114E-THT"
+			(at 34.29 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
+			(at 29.464 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "06cb8697-15f0-4a76-845c-bfb9e2da0cb7")
+		)
+		(pin "2"
+			(uuid "d08ba46d-0484-47ce-9047-ea75cfaf7e4b")
+		)
+		(pin "1"
+			(uuid "8e2336ad-d6dd-4c2b-bcfe-da71c176e9bb")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NQ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YoshLibrary:2SC1815")
+		(at 121.92 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec63752b-edf6-46cd-8426-ec4fb012fe7c")
+		(property "Reference" "NX?"
+			(at 125.984 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1815"
+			(at 127 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 127 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "582b039c-fbb9-48ff-aacb-fd9d66348d38")
+		)
+		(pin "2"
+			(uuid "927a5ddc-5350-47fe-8738-62326c1e239b")
+		)
+		(pin "3"
+			(uuid "b4fe1c64-d57b-40a4-830d-c2ad1920d2bc")
+		)
+		(instances
+			(project "RT08-ProgramBoard"
+				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
+					(reference "NX?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 111.76 123.19 180)
+		(at 26.67 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4386,7 +5967,7 @@
 		(dnp no)
 		(uuid "f4ab4e55-5794-4697-846f-f517a8dd6fba")
 		(property "Reference" "#PWR?"
-			(at 111.76 116.84 0)
+			(at 26.67 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +5976,7 @@
 			)
 		)
 		(property "Value" "G"
-			(at 110.49 120.65 0)
+			(at 25.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +5984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 123.19 0)
+			(at 26.67 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +5993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 123.19 0)
+			(at 26.67 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +6002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 123.19 0)
+			(at 26.67 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,74 +6017,6 @@
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe9991e0-0ac1-44ef-9d7f-c50fe3fbdae5")
-		(property "Reference" "R?"
-			(at 132.334 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 135.89 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fdc797d-46fa-442d-bc84-eba0b3ab0a41")
-		)
-		(pin "1"
-			(uuid "185938d6-4c36-4b3f-8579-d0c10c842a71")
-		)
-		(instances
-			(project "RT08-ProgramBoard"
-				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998"
-					(reference "R?")
 					(unit 1)
 				)
 			)
