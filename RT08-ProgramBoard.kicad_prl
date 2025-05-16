@@ -118,13 +118,13 @@
     "selection_filter": {
       "graphics": false,
       "images": false,
-      "labels": true,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pins": false,
       "symbols": true,
-      "text": true,
-      "wires": false
+      "text": false,
+      "wires": true
     }
   }
 }
