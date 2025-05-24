@@ -225,7 +225,15 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.2,
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.0,
           "drill": 0.8
         }
       ],
@@ -647,6 +655,10 @@
     [
       "1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998",
       "Root"
+    ],
+    [
+      "0c25346e-1d72-44ff-80ee-bebfe707fa54",
+      "SRAM-cell"
     ]
   ],
   "text_variables": {}
