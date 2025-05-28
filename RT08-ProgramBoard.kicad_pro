@@ -639,6 +639,14 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -658,515 +666,515 @@
     ],
     [
       "0c25346e-1d72-44ff-80ee-bebfe707fa54",
-      "SRAM-cell"
+      "SRAM-cell0"
     ],
     [
       "c5a665aa-6ef9-4400-8e37-8f6b320c17af",
-      "SRAM-cell"
+      "SRAM-cell1"
     ],
     [
       "cc2cc4a6-0c80-477b-9165-4470308c1b3c",
-      "SRAM-cell"
+      "SRAM-cell2"
     ],
     [
       "58406399-bad9-469d-9a49-66bbfb3f983c",
-      "SRAM-cell"
+      "SRAM-cell3"
     ],
     [
       "89d14463-3679-4f2f-93fa-f76b0e9fc108",
-      "SRAM-cell"
+      "SRAM-cell4"
     ],
     [
       "b983361f-d916-4411-8bb4-18c3e63b68c6",
-      "SRAM-cell"
+      "SRAM-cell5"
     ],
     [
       "d5148c85-f085-41be-985a-915319184750",
-      "SRAM-cell"
+      "SRAM-cell6"
     ],
     [
       "3e8bfcb6-9286-4800-97d8-3615e60103c7",
-      "SRAM-cell"
+      "SRAM-cell7"
     ],
     [
       "fa57f6c1-91bc-400a-8992-7a5fc3bcefd5",
-      "SRAM-cell"
+      "SRAM-cell8"
     ],
     [
       "8322dfb9-801f-4567-bdf8-1b63b39d9cf7",
-      "SRAM-cell"
+      "SRAM-cell9"
     ],
     [
       "b4fcd96b-df86-41c6-ad93-36f292877e83",
-      "SRAM-cell"
+      "SRAM-cell10"
     ],
     [
       "6d6565e7-b464-4789-a477-d376915ea176",
-      "SRAM-cell"
+      "SRAM-cell11"
     ],
     [
       "ee0983c9-5cb8-46a2-a96a-9a9cf2edd396",
-      "SRAM-cell"
+      "SRAM-cell12"
     ],
     [
       "1704763b-239a-4339-b422-096fabc43f45",
-      "SRAM-cell"
+      "SRAM-cell13"
     ],
     [
       "4f22ecd4-a17d-4b4b-90ec-9d06daeb69a7",
-      "SRAM-cell"
+      "SRAM-cell14"
     ],
     [
       "c58fb125-5fbd-4535-9e8c-f261c61d1dc4",
-      "SRAM-cell"
+      "SRAM-cell15"
     ],
     [
       "73782bc1-8ebd-420e-8751-b74cfb1eb4b7",
-      "SRAM-cell"
+      "SRAM-cell31"
     ],
     [
       "2fc51a65-115d-4b08-87e5-0858992be26b",
-      "SRAM-cell"
+      "SRAM-cell30"
     ],
     [
       "5060c3cd-b27a-4910-805d-a226d7ae10ec",
-      "SRAM-cell"
+      "SRAM-cell19"
     ],
     [
       "32745c17-b50f-4bd6-88a7-526072033306",
-      "SRAM-cell"
+      "SRAM-cell21"
     ],
     [
       "21d993f3-3e35-45da-8da1-c6e6b0bfdb21",
-      "SRAM-cell"
+      "SRAM-cell20"
     ],
     [
       "32f29027-603b-4aa0-a189-dbd1256d4dfd",
-      "SRAM-cell"
+      "SRAM-cell16"
     ],
     [
       "6704f171-4b7f-4741-b537-1a495ed9a072",
-      "SRAM-cell"
+      "SRAM-cell27"
     ],
     [
       "944c908b-24c7-4925-8de3-e5741af3f23a",
-      "SRAM-cell"
+      "SRAM-cell26"
     ],
     [
       "2faddd4a-19b5-40cc-8439-59e36e592dd2",
-      "SRAM-cell"
+      "SRAM-cell24"
     ],
     [
       "4ea7b593-d2a6-4b26-b5ca-aaa11aa1061d",
-      "SRAM-cell"
+      "SRAM-cell25"
     ],
     [
       "67e11e4e-c847-4f38-8db7-21d81738f151",
-      "SRAM-cell"
+      "SRAM-cell23"
     ],
     [
       "d40db985-dad0-4495-8d47-32b6235f2188",
-      "SRAM-cell"
+      "SRAM-cell22"
     ],
     [
       "162699d2-01e3-4aa1-8fe2-6fe65742a95d",
-      "SRAM-cell"
+      "SRAM-cell17"
     ],
     [
       "477d22a5-418f-46bf-be21-7048e2f40691",
-      "SRAM-cell"
+      "SRAM-cell18"
     ],
     [
       "95b0dcf6-8f03-4f06-8d0e-38e496f89dc3",
-      "SRAM-cell"
+      "SRAM-cell28"
     ],
     [
       "ce51b1aa-476c-4c87-a710-13a99e2209ba",
-      "SRAM-cell"
+      "SRAM-cell29"
     ],
     [
       "4c35426f-10b8-4701-b072-6e93ef111fd1",
-      "SRAM-cell"
+      "SRAM-cell45"
     ],
     [
       "1f0fd3d2-2512-4835-bc2f-16f092982cd9",
-      "SRAM-cell"
+      "SRAM-cell44"
     ],
     [
       "a99c6746-c1c8-45c8-b659-27fd793f356a",
-      "SRAM-cell"
+      "SRAM-cell37"
     ],
     [
       "50dcd37d-356d-4eb0-872a-657fe974f042",
-      "SRAM-cell"
+      "SRAM-cell36"
     ],
     [
       "634f32e8-61f0-4684-b5be-91f47e0d56fb",
-      "SRAM-cell"
+      "SRAM-cell34"
     ],
     [
       "de2a75ae-c2fe-49b0-81eb-b88bc2b45d1c",
-      "SRAM-cell"
+      "SRAM-cell35"
     ],
     [
       "4fdc92fb-2c6a-4437-8302-bb080cb41776",
-      "SRAM-cell"
+      "SRAM-cell42"
     ],
     [
       "c544ad5b-0673-4c18-b421-b3c332870985",
-      "SRAM-cell"
+      "SRAM-cell43"
     ],
     [
       "93a02242-1a65-43dd-bb70-0615180c6044",
-      "SRAM-cell"
+      "SRAM-cell38"
     ],
     [
       "d81cad54-b4c3-46dc-a254-d6447950c8d4",
-      "SRAM-cell"
+      "SRAM-cell39"
     ],
     [
       "3f76ca36-d9e4-44f6-aca9-22fb13c2aa4c",
-      "SRAM-cell"
+      "SRAM-cell46"
     ],
     [
       "26a04bdd-6603-4997-88a4-2a7b15f63449",
-      "SRAM-cell"
+      "SRAM-cell47"
     ],
     [
       "18b7e891-756a-48b0-b41b-91e44d210650",
-      "SRAM-cell"
+      "SRAM-cell33"
     ],
     [
       "92b8dc84-7ffb-4792-93cf-8022c064af58",
-      "SRAM-cell"
+      "SRAM-cell32"
     ],
     [
       "5d20549b-8323-418a-acbc-ecb8f3b56c09",
-      "SRAM-cell"
+      "SRAM-cell40"
     ],
     [
       "217ec7b2-7d70-4c91-9315-6803f189f9a8",
-      "SRAM-cell"
+      "SRAM-cell41"
     ],
     [
       "ecd4abd2-f9c0-49f0-b340-4b4e8749e9a0",
-      "SRAM-cell"
+      "SRAM-cell61"
     ],
     [
       "69e2882e-eea7-4b7f-916a-dde12f39690d",
-      "SRAM-cell"
+      "SRAM-cell60"
     ],
     [
       "1029ae76-da0d-4df0-a069-2876118387ac",
-      "SRAM-cell"
+      "SRAM-cell53"
     ],
     [
       "ea9021c4-33dc-4bb0-935c-9d9e5805012e",
-      "SRAM-cell"
+      "SRAM-cell52"
     ],
     [
       "ee79dacc-44df-4a88-939a-4e8efad439b5",
-      "SRAM-cell"
+      "SRAM-cell50"
     ],
     [
       "1690047b-aad5-40d5-b757-2f2bdd20acf7",
-      "SRAM-cell"
+      "SRAM-cell51"
     ],
     [
       "e45386ca-4a35-4bab-93bf-3e0e3fc09199",
-      "SRAM-cell"
+      "SRAM-cell58"
     ],
     [
       "fca2cf50-f2fb-43e5-8ae8-2034df56a751",
-      "SRAM-cell"
+      "SRAM-cell59"
     ],
     [
       "04e7e1bc-0834-4db2-80b1-4d352da74329",
-      "SRAM-cell"
+      "SRAM-cell54"
     ],
     [
       "15c49373-ba67-44c3-a371-b57aae0edee2",
-      "SRAM-cell"
+      "SRAM-cell55"
     ],
     [
       "27fe5764-23cf-401d-ab60-053905c4a5c9",
-      "SRAM-cell"
+      "SRAM-cell62"
     ],
     [
       "1bd3edf2-0f24-4034-a1b5-d30e191f6e36",
-      "SRAM-cell"
+      "SRAM-cell63"
     ],
     [
       "e7192daa-cdb9-4556-9097-b73668aa533b",
-      "SRAM-cell"
+      "SRAM-cell49"
     ],
     [
       "295959a3-e6bd-4927-939c-c3a8bbe693bf",
-      "SRAM-cell"
+      "SRAM-cell48"
     ],
     [
       "0a57e61f-6503-4f08-b047-223611989ea7",
-      "SRAM-cell"
+      "SRAM-cell56"
     ],
     [
       "0d77050f-b619-4bf1-b135-457dd0f56531",
-      "SRAM-cell"
+      "SRAM-cell57"
     ],
     [
       "59cbf1cf-c8eb-4e2a-a1bd-e0afa5131796",
-      "SRAM-cell"
+      "SRAM-cell66"
     ],
     [
       "830c3d78-0568-4c7e-b140-76cff0c29f42",
-      "SRAM-cell"
+      "SRAM-cell65"
     ],
     [
       "3d44ae1c-5292-4228-aa16-ba37fd0087d1",
-      "SRAM-cell"
+      "SRAM-cell72"
     ],
     [
       "89da6468-9b36-4662-83c9-c8f64933d7e4",
-      "SRAM-cell"
+      "SRAM-cell71"
     ],
     [
       "65891091-519c-4129-860f-d5e2ad5e2174",
-      "SRAM-cell"
+      "SRAM-cell67"
     ],
     [
       "cbd41ff6-84cf-4e4a-a797-40a66437aa18",
-      "SRAM-cell"
+      "SRAM-cell68"
     ],
     [
       "c30207a2-3fec-4197-b4e0-bf3c22d6765f",
-      "SRAM-cell"
+      "SRAM-cell78"
     ],
     [
       "cdbc6f2e-20f3-4b53-9194-3894e7b1c045",
-      "SRAM-cell"
+      "SRAM-cell77"
     ],
     [
       "0fb38079-715d-4fda-8ec9-4d97aec113cc",
-      "SRAM-cell"
+      "SRAM-cell79"
     ],
     [
       "ef55c6b6-37c4-4098-bf53-dd27c518d023",
-      "SRAM-cell"
+      "SRAM-cell73"
     ],
     [
       "3bbc9529-c8bd-4cf1-a2fb-47e0b6b2d5ee",
-      "SRAM-cell"
+      "SRAM-cell74"
     ],
     [
       "132319ec-09bd-466e-8936-f728e89e93f7",
-      "SRAM-cell"
+      "SRAM-cell64"
     ],
     [
       "aefe1f34-6109-47a8-aa15-a824f96f7d02",
-      "SRAM-cell"
+      "SRAM-cell76"
     ],
     [
       "51073a15-8d5c-4dd6-9fa7-9f69e7f35269",
-      "SRAM-cell"
+      "SRAM-cell75"
     ],
     [
       "870ce8f9-3bbd-4773-b234-d19cce409e9a",
-      "SRAM-cell"
+      "SRAM-cell69"
     ],
     [
       "0624f4ac-c2cc-4eb1-a4be-a37fb77ac2ae",
-      "SRAM-cell"
+      "SRAM-cell70"
     ],
     [
       "03455eee-1d10-4fcd-b40d-0b7dc5e83950",
-      "SRAM-cell"
+      "SRAM-cell82"
     ],
     [
       "8e5efe59-859e-48c3-86a0-4a8339acf191",
-      "SRAM-cell"
+      "SRAM-cell81"
     ],
     [
       "b31d7dcf-4cbe-465c-a708-f9316287173a",
-      "SRAM-cell"
+      "SRAM-cell88"
     ],
     [
       "f1a7717b-6d3f-4fcb-a995-da6e95feeb5c",
-      "SRAM-cell"
+      "SRAM-cell87"
     ],
     [
       "1f4f8cb8-33e2-4e87-b4c2-1022f6a3a4d7",
-      "SRAM-cell"
+      "SRAM-cell83"
     ],
     [
       "5ca74f33-7342-4697-80b5-ec82fbdc6b94",
-      "SRAM-cell"
+      "SRAM-cell84"
     ],
     [
       "642590d8-b492-4429-a836-24bd2fbb5176",
-      "SRAM-cell"
+      "SRAM-cell94"
     ],
     [
       "0e468e47-6bc5-4e06-8714-22a8a88b65d8",
-      "SRAM-cell"
+      "SRAM-cell93"
     ],
     [
       "e7cfa8ca-ec27-4344-a03b-c6950b5c7477",
-      "SRAM-cell"
+      "SRAM-cell95"
     ],
     [
       "eb61549c-df8c-4932-aa05-aefdb63eb045",
-      "SRAM-cell"
+      "SRAM-cell89"
     ],
     [
       "96bebee7-6ada-4227-a698-8568b4b98db3",
-      "SRAM-cell"
+      "SRAM-cell90"
     ],
     [
       "0263c7bd-efdc-4a31-a11d-f3a55df64b56",
-      "SRAM-cell"
+      "SRAM-cell80"
     ],
     [
       "e36622f1-e5b9-4e5e-b9bd-83b7d92d3ef2",
-      "SRAM-cell"
+      "SRAM-cell92"
     ],
     [
       "908ec73c-9de9-4e2a-897e-4b7d1e6f0dc8",
-      "SRAM-cell"
+      "SRAM-cell91"
     ],
     [
       "dffdb4cd-831a-4324-8150-778c02b189ad",
-      "SRAM-cell"
+      "SRAM-cell85"
     ],
     [
       "c7986d74-063d-4d64-8b36-f0f27e036c8b",
-      "SRAM-cell"
+      "SRAM-cell86"
     ],
     [
       "4649e034-18d3-44a7-aaab-3c26732ad462",
-      "SRAM-cell"
+      "SRAM-cell98"
     ],
     [
       "8977f3c2-15df-4f1d-9f68-45d8f7e9eef5",
-      "SRAM-cell"
+      "SRAM-cell97"
     ],
     [
       "6765d48e-0ef6-4e55-816c-d669aa9759eb",
-      "SRAM-cell"
+      "SRAM-cell104"
     ],
     [
       "07d585cb-aa44-4edd-896e-28eda1a53469",
-      "SRAM-cell"
+      "SRAM-cell103"
     ],
     [
       "a38f5450-00d9-4870-9c0a-a6c7ecd32251",
-      "SRAM-cell"
+      "SRAM-cell99"
     ],
     [
       "c76676d5-756a-4e99-a5c6-e0c6aaf8ea88",
-      "SRAM-cell"
+      "SRAM-cell100"
     ],
     [
       "1333aec2-e7a5-4f05-8e69-024cba689ee1",
-      "SRAM-cell"
+      "SRAM-cell110"
     ],
     [
       "e522f930-a5ba-4116-9e27-1970d150aebc",
-      "SRAM-cell"
+      "SRAM-cell109"
     ],
     [
       "ff44c193-6158-422d-b85b-759d06b93478",
-      "SRAM-cell"
+      "SRAM-cell111"
     ],
     [
       "109963b2-8329-49a5-b449-fb62470e90c1",
-      "SRAM-cell"
+      "SRAM-cell105"
     ],
     [
       "6021480c-cdc5-4110-b601-b125fd251323",
-      "SRAM-cell"
+      "SRAM-cell106"
     ],
     [
       "24f77525-03f9-4398-acae-a8cfd0b8a344",
-      "SRAM-cell"
+      "SRAM-cell96"
     ],
     [
       "ceec7acb-5e40-458f-9657-2580d2fc6446",
-      "SRAM-cell"
+      "SRAM-cell108"
     ],
     [
       "c984986d-5dc2-4759-abda-28bb9c29b964",
-      "SRAM-cell"
+      "SRAM-cell107"
     ],
     [
       "675b8f9e-42e5-43f5-b69e-75e59c708d20",
-      "SRAM-cell"
+      "SRAM-cell101"
     ],
     [
       "69ba6210-fcdf-49f9-afbf-2d3702b0b8c1",
-      "SRAM-cell"
+      "SRAM-cell102"
     ],
     [
       "74c74938-fda8-4ebe-8ae2-a93a268ec123",
-      "SRAM-cell"
+      "SRAM-cell114"
     ],
     [
       "de1ecc23-e065-47ee-b0b1-68133939a4bb",
-      "SRAM-cell"
+      "SRAM-cell113"
     ],
     [
       "f8facd65-213a-4c24-b397-d1f00337a2a5",
-      "SRAM-cell"
+      "SRAM-cell120"
     ],
     [
       "89156afd-2cb0-49cd-9c6f-e9065af64b10",
-      "SRAM-cell"
+      "SRAM-cell119"
     ],
     [
       "34adfca8-e4b9-4318-9e66-9dee6be9bd2c",
-      "SRAM-cell"
+      "SRAM-cell115"
     ],
     [
       "ef235171-51d0-4ecc-9392-29ffa5d8b530",
-      "SRAM-cell"
+      "SRAM-cell116"
     ],
     [
       "698f2a65-5876-4783-b462-baa20bab2007",
-      "SRAM-cell"
+      "SRAM-cell126"
     ],
     [
       "4e4593ff-dfdd-4e78-879f-6e782bb0449f",
-      "SRAM-cell"
+      "SRAM-cell125"
     ],
     [
       "ee0fa732-ce3c-49d5-9df0-f019a0ebcf00",
-      "SRAM-cell"
+      "SRAM-cell127"
     ],
     [
       "c3a69e80-42e5-4ef6-b120-6b1114ac3e0b",
-      "SRAM-cell"
+      "SRAM-cell121"
     ],
     [
       "7288a9bb-1d33-4080-ba38-a4810e6f83ca",
-      "SRAM-cell"
+      "SRAM-cell122"
     ],
     [
       "1504750f-5293-4f05-8864-f6a647b29f9b",
-      "SRAM-cell"
+      "SRAM-cell112"
     ],
     [
       "a997c0ff-b7a4-4c7d-959c-64c16244d130",
-      "SRAM-cell"
+      "SRAM-cell124"
     ],
     [
       "c3f2d63b-1fd5-4a85-a4b5-f3c467ff3cbc",
-      "SRAM-cell"
+      "SRAM-cell123"
     ],
     [
       "ac6adcac-e022-4ccc-8d3c-530d25134a1c",
-      "SRAM-cell"
+      "SRAM-cell117"
     ],
     [
       "b77fea72-0e3d-4f77-aa98-93fc7e63a0d1",
-      "SRAM-cell"
+      "SRAM-cell118"
     ]
   ],
   "text_variables": {}
