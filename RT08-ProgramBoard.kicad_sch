@@ -37081,7 +37081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 526.542 61.468 0)
 			(effects
 				(font
@@ -37147,7 +37147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 374.142 61.468 0)
 			(effects
 				(font
@@ -37873,7 +37873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 297.942 86.868 0)
 			(effects
 				(font
@@ -38218,7 +38218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 336.042 61.468 0)
 			(effects
 				(font
@@ -38284,7 +38284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 450.342 61.468 0)
 			(effects
 				(font
@@ -38788,8 +38788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
-			(at 44.704 142.494 0)
+		(property "Value" "GND"
+			(at 45.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39224,7 +39224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 450.342 86.868 0)
 			(effects
 				(font
@@ -39801,7 +39801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 526.542 86.868 0)
 			(effects
 				(font
@@ -41199,7 +41199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 336.042 86.868 0)
 			(effects
 				(font
@@ -43530,7 +43530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 412.242 86.868 0)
 			(effects
 				(font
@@ -44024,7 +44024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 488.442 86.868 0)
 			(effects
 				(font
@@ -44765,7 +44765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 564.642 61.468 0)
 			(effects
 				(font
@@ -44831,7 +44831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 412.242 61.468 0)
 			(effects
 				(font
@@ -45396,7 +45396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 374.142 86.868 0)
 			(effects
 				(font
@@ -46772,7 +46772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 488.442 61.468 0)
 			(effects
 				(font
@@ -48796,7 +48796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 297.942 61.468 0)
 			(effects
 				(font
@@ -48862,7 +48862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "GND"
 			(at 564.642 86.868 0)
 			(effects
 				(font
