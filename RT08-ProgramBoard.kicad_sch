@@ -6,9 +6,9 @@
 	(paper "A2")
 	(title_block
 		(title "Y-tran RT-08 Program board")
-		(date "2025~")
+		(date "2025/3~5")
 		(rev "B")
-		(company "@yoshi-jp")
+		(company "@7654jp")
 		(comment 2 "to provide instructions.")
 		(comment 3 "the core via 'Program base'")
 		(comment 4 "This board will be connected to")
