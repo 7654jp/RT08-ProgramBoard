@@ -1175,6 +1175,22 @@
     [
       "b77fea72-0e3d-4f77-aa98-93fc7e63a0d1",
       "SRAM-cell118"
+    ],
+    [
+      "8cb9a0e2-ac9e-4f8e-905d-48e2924bf956",
+      "Buffer0"
+    ],
+    [
+      "f48c2fe5-0d30-48d8-bec9-1dc8a6075678",
+      "Buffer1"
+    ],
+    [
+      "936d5558-9fc5-4fc7-a713-5fb79fe91b62",
+      "Buffer2"
+    ],
+    [
+      "c3bf8b9b-5e1b-4222-9f14-5fb269051932",
+      "Buffer3"
     ]
   ],
   "text_variables": {}
