@@ -739,7 +739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "318d3ecc-6680-4516-85fd-57d451b4a9dc")
-		(property "Reference" "#PWR0613"
+		(property "Reference" "#PWR066001"
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -789,19 +789,19 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/8cb9a0e2-ac9e-4f8e-905d-48e2924bf956"
-					(reference "#PWR0613")
+					(reference "#PWR066001")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/936d5558-9fc5-4fc7-a713-5fb79fe91b62"
-					(reference "#PWR0615")
+					(reference "#PWR068001")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/c3bf8b9b-5e1b-4222-9f14-5fb269051932"
-					(reference "#PWR0617")
+					(reference "#PWR069001")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/f48c2fe5-0d30-48d8-bec9-1dc8a6075678"
-					(reference "#PWR0614")
+					(reference "#PWR067001")
 					(unit 1)
 				)
 			)
@@ -816,7 +816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7323f670-2e3e-458d-8873-bb62e956f0ce")
-		(property "Reference" "PQ279"
+		(property "Reference" "PQ13"
 			(at 23.114 22.86 0)
 			(effects
 				(font
@@ -876,19 +876,19 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/8cb9a0e2-ac9e-4f8e-905d-48e2924bf956"
-					(reference "PQ279")
+					(reference "PQ13")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/936d5558-9fc5-4fc7-a713-5fb79fe91b62"
-					(reference "PQ281")
+					(reference "PQ79")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/c3bf8b9b-5e1b-4222-9f14-5fb269051932"
-					(reference "PQ283")
+					(reference "PQ112")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/f48c2fe5-0d30-48d8-bec9-1dc8a6075678"
-					(reference "PQ280")
+					(reference "PQ46")
 					(unit 1)
 				)
 			)
@@ -903,7 +903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc04e79c-0e9f-4723-9962-4d1dfe0a816c")
-		(property "Reference" "NQ961"
+		(property "Reference" "NQ25"
 			(at 16.002 26.924 0)
 			(effects
 				(font
@@ -963,19 +963,19 @@
 		(instances
 			(project "RT08-ProgramBoard"
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/8cb9a0e2-ac9e-4f8e-905d-48e2924bf956"
-					(reference "NQ961")
+					(reference "NQ25")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/936d5558-9fc5-4fc7-a713-5fb79fe91b62"
-					(reference "NQ963")
+					(reference "NQ251")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/c3bf8b9b-5e1b-4222-9f14-5fb269051932"
-					(reference "NQ965")
+					(reference "NQ364")
 					(unit 1)
 				)
 				(path "/1e4a9b72-5dca-4cd4-9b5c-6a0bbded1998/f48c2fe5-0d30-48d8-bec9-1dc8a6075678"
-					(reference "NQ962")
+					(reference "NQ138")
 					(unit 1)
 				)
 			)
