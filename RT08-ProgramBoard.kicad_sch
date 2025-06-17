@@ -20442,7 +20442,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:2SC1815")
-		(at 176.53 81.28 0)
+		(at 186.69 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20450,7 +20450,7 @@
 		(dnp no)
 		(uuid "4137b131-d669-44f0-89ac-aa47af2c37dc")
 		(property "Reference" "NX4"
-			(at 171.45 76.835 0)
+			(at 181.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,7 +20459,7 @@
 			)
 		)
 		(property "Value" "2SC1815"
-			(at 181.61 82.5499 0)
+			(at 191.77 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20469,7 +20469,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 181.61 83.185 0)
+			(at 191.77 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20480,7 +20480,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
-			(at 176.53 81.28 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20490,7 +20490,7 @@
 			)
 		)
 		(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
-			(at 176.53 81.28 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22899,7 +22899,7 @@
 	)
 	(symbol
 		(lib_id "YoshLibrary:DTC114E-THT")
-		(at 186.69 82.55 0)
+		(at 176.53 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22907,7 +22907,7 @@
 		(dnp no)
 		(uuid "d07d301a-82bb-4d9c-9667-ad0cf1d9a695")
 		(property "Reference" "NQ6"
-			(at 181.61 78.74 0)
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22916,7 +22916,7 @@
 			)
 		)
 		(property "Value" "DTC114E-THT"
-			(at 191.77 83.8199 0)
+			(at 181.61 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22926,7 +22926,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 186.69 82.55 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22936,7 +22936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 82.55 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22946,7 +22946,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 10k/10k, TO-92"
-			(at 186.944 87.122 0)
+			(at 176.784 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
