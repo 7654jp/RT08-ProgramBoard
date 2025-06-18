@@ -1,0 +1,30 @@
+{
+	"fileInfo":	{
+		"appName":	"marmelo",
+		"mbdVer":	"2.0.0"
+	},
+	"proj":	{
+		"properties":	{
+			"author":	"@7654jp",
+			"title":	"RT08-ProgramBoard",
+			"subtitle":	"Rev.A",
+			"explanation":	"",
+			"read-only":	false
+		},
+		"statistics":	{
+			"numHole":	[60, 100],
+			"numParts":	0,
+			"numWires":	0,
+			"numCmtTags":	0
+		},
+		"options":	{
+			"showBackWiresOnFrontWindow":	true,
+			"showFrontWiresOnBackWindow":	true,
+			"mirrorModeOnBackWindow":	false,
+			"showCmtTags":	true
+		},
+		"parts":	[],
+		"wires":	[],
+		"cmtTags":	[]
+	}
+}
