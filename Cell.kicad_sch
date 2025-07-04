@@ -3704,7 +3704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 77.47 25.4 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 45.72 25.4 0)
 			(effects
 				(font
