@@ -4084,7 +4084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DTC143E-THT"
+		(property "Value" "DTC114E-THT"
 			(at 60.96 44.4499 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30V0.2A"
+		(property "Value" "Schottky"
 			(at 38.3539 39.37 90)
 			(effects
 				(font
@@ -4349,7 +4349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30V0.2A"
+		(property "Value" "Schottky"
 			(at 23.1139 41.91 90)
 			(effects
 				(font
