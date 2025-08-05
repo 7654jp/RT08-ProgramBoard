@@ -5,7 +5,7 @@
 	(uuid "1712f928-4c70-4eec-a2a0-e61bdf9aba2b")
 	(paper "User" 208.077 65.024)
 	(title_block
-		(title "SRAM cell for RT-08 Program board")
+		(title "SRAM cell for RT08 Program board")
 		(date "2025-05-24")
 		(company "@7654jp")
 	)
