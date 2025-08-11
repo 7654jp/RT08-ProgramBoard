@@ -438,19 +438,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1770,12 +1772,8 @@
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1851,7 +1849,8 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3838,7 +3837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Y"
 			(at 57.15 22.86 0)
 			(effects
 				(font
@@ -4759,7 +4758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Y"
 			(at 59.182 44.45 90)
 			(effects
 				(font
@@ -5024,7 +5023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Y"
 			(at 64.77 27.94 0)
 			(effects
 				(font
@@ -5153,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Y"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -5543,7 +5542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "YoshLibrary:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Y"
 			(at 27.178 31.75 90)
 			(effects
 				(font
