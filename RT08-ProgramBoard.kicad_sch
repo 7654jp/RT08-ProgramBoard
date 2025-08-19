@@ -7,7 +7,7 @@
 	(title_block
 		(title "Y-tran RT08 Program board")
 		(date "2025/3~8")
-		(rev "D")
+		(rev "E")
 		(company "@7654jp")
 		(comment 2 "to provide instructions.")
 		(comment 3 "the core via 'Program base'")
@@ -2573,16 +2573,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 96.52) (xy 34.29 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f94da8-d3f4-44bb-9b20-3b1f83e70ef4")
-	)
-	(wire
-		(pts
 			(xy 95.25 87.63) (xy 95.25 114.3)
 		)
 		(stroke
@@ -3433,16 +3423,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 96.52) (xy 34.29 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7324a7d8-0cdd-48dc-b94d-a459b3f5a162")
-	)
-	(wire
-		(pts
 			(xy 220.98 133.35) (xy 250.19 133.35)
 		)
 		(stroke
@@ -3753,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 76.2) (xy 33.02 96.52)
+			(xy 33.02 76.2) (xy 33.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5140,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "d3babc54-5b0f-4f70-b532-dd6f630428c7")
+	)
+	(wire
+		(pts
+			(xy 33.02 100.33) (xy 34.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b7c392-f46a-4813-b78b-926e3ef325e6")
 	)
 	(wire
 		(pts
