@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "d21"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -26,7 +24,7 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": true,
+      "tracks": false,
       "vias": false,
       "zones": false
     },
@@ -66,7 +64,7 @@
   "net_inspector_panel": {
     "col_hidden": [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -90,14 +88,14 @@
     ],
     "col_widths": [
       10,
+      103,
+      107,
       10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
+      85,
+      86,
+      87,
+      73,
+      84,
       1363
     ],
     "custom_group_rules": [],
@@ -110,7 +108,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": 2
   },
   "open_jobsets": [],
   "project": {
