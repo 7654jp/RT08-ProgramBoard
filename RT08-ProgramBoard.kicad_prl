@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 19,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -53,7 +53,6 @@
     "zone_display_mode": 0
   },
   "git": {
-    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -117,8 +116,8 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": false,
-      "images": false,
+      "graphics": true,
+      "images": true,
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
