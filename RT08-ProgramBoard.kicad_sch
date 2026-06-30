@@ -663,7 +663,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VDD\nGND\nRst\nDEn\nWEn\nGND"
+	(text "VDD\nGND\nRst\nWEn\nDEn\nGND"
 		(exclude_from_sim no)
 		(at 17.78 30.48 0)
 		(effects
@@ -712,6 +712,12 @@
 		(uuid "099abd42-cac6-4d87-a77c-e5788e1a00e6")
 	)
 	(junction
+		(at 38.1 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b6f4ca-a62d-4ad5-9fc4-b81ae61b6ae6")
+	)
+	(junction
 		(at 212.09 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -752,6 +758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22842587-5167-4e33-acad-fd62ec956a4c")
+	)
+	(junction
+		(at 31.75 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2429a901-842a-49aa-8cea-dc9c36388681")
 	)
 	(junction
 		(at 213.36 83.82)
@@ -970,12 +982,6 @@
 		(uuid "9c8499a8-3ca6-4f95-ac91-3c209ffc3cf5")
 	)
 	(junction
-		(at 38.1 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e5051c8-cd64-40b2-9931-aab8b2d9e6bd")
-	)
-	(junction
 		(at 223.52 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1034,12 +1040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9cdf687-6662-4b41-aeaf-b39f342110ba")
-	)
-	(junction
-		(at 33.02 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbd989d7-d81d-4ec4-8f41-0013922374ca")
 	)
 	(junction
 		(at 194.31 44.45)
@@ -2299,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 44.45) (xy 31.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6fc355-623e-474f-94bd-0def04f4137d")
+	)
+	(wire
+		(pts
 			(xy 39.37 60.96) (xy 40.64 60.96)
 		)
 		(stroke
@@ -2469,6 +2479,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 44.45) (xy 31.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb138bb-a382-443d-971c-6f02a485e2e3")
+	)
+	(wire
+		(pts
 			(xy 66.04 93.98) (xy 69.85 93.98)
 		)
 		(stroke
@@ -2579,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 45.72) (xy 33.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e30947-0a15-4f42-92e1-fd70436666b9")
+	)
+	(wire
+		(pts
 			(xy 27.94 41.91) (xy 27.94 24.13)
 		)
 		(stroke
@@ -2646,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "56de2635-56d4-40f9-9a7d-3522aa26ed24")
+	)
+	(wire
+		(pts
+			(xy 33.02 46.99) (xy 31.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a6ceee-1020-4ac0-8273-a7aa6a5ee32f")
 	)
 	(bus
 		(pts
@@ -2979,13 +3019,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 44.45) (xy 48.26 44.45)
+			(xy 31.75 44.45) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f972191-41bd-4077-adbf-3a6a317dbe50")
+		(uuid "6f951cc3-ebcc-498e-b97c-13c23abab8b2")
 	)
 	(wire
 		(pts
@@ -3629,16 +3669,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 45.72) (xy 38.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bdcc566-737c-45e0-8b1e-aeb9d28f855c")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 38.1 83.82)
 		)
 		(stroke
@@ -3766,16 +3796,6 @@
 			(type default)
 		)
 		(uuid "a1b10340-33b9-44cf-a077-d17bcdf43d5a")
-	)
-	(wire
-		(pts
-			(xy 33.02 31.75) (xy 33.02 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c57e8f-8e8c-4b75-858d-2e9ac46cb0e3")
 	)
 	(bus
 		(pts
@@ -3929,6 +3949,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 31.75) (xy 33.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cb16d3-854f-4bb8-9aa9-8f6ec574bb09")
+	)
+	(wire
+		(pts
 			(xy 214.63 49.53) (xy 214.63 60.96)
 		)
 		(stroke
@@ -3946,16 +3976,6 @@
 			(type default)
 		)
 		(uuid "ab4ebde2-f683-4618-8a23-5d075baa87d1")
-	)
-	(wire
-		(pts
-			(xy 33.02 44.45) (xy 33.02 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab95ad65-b718-48e4-b9bf-ae6771a997aa")
 	)
 	(wire
 		(pts
@@ -4286,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "c17dbcb3-4d55-4cfd-9dc8-656b52f1b187")
+	)
+	(wire
+		(pts
+			(xy 33.02 46.99) (xy 33.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c4dc41-fe37-4a5d-8231-3b84689d8d10")
 	)
 	(bus
 		(pts
@@ -4807,16 +4837,6 @@
 		)
 		(uuid "e3301f00-ae82-490d-9812-b8bbb95e9f5d")
 	)
-	(wire
-		(pts
-			(xy 31.75 34.29) (xy 31.75 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e475b445-d6e5-4b02-a612-79b49d5e8262")
-	)
 	(bus
 		(pts
 			(xy 31.75 54.61) (xy 31.75 59.69)
@@ -5257,7 +5277,7 @@
 		)
 		(uuid "81e20394-9900-42a3-920f-bc35117db04a")
 	)
-	(label "WEn"
+	(label "DEn"
 		(at 31.75 34.29 180)
 		(effects
 			(font
@@ -5297,7 +5317,7 @@
 		)
 		(uuid "91e3108e-5138-4c92-bb30-6a5387ca7d55")
 	)
-	(label "DEn"
+	(label "WEn"
 		(at 33.02 31.75 180)
 		(effects
 			(font
@@ -6065,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR/Addr"
+		(property "Value" "PWR/Ctrl"
 			(at 21.082 20.066 0)
 			(effects
 				(font

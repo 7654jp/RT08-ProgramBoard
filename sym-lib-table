@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "YoshLibrary")(type "KiCad")(uri "/home/yosh2-pcc/Git/YoshLibrary.kicad_sym")(options "")(descr ""))
+)
